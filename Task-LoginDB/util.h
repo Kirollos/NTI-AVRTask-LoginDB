@@ -11,7 +11,7 @@
 
 #include "STD_TYPES.h"
 
-s32 my_atoi(const u8* str);
+u32 my_atoi(const u8* str);
 
 
 

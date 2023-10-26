@@ -7,10 +7,10 @@
 
 #include "util.h"
 
-// Convert a string to an integer
-s32 my_atoi(const u8* str)
+// Convert a string to an unsigned integer
+u32 my_atoi(const u8* str)
 {
-	s32 ret = 0;
+	u32 ret = 0;
 	const u8* ptr = str;
 	while(ptr != '\0')
 	{
